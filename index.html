@@ -1,31 +1,36 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta lang="en">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <div id="calculator">
-        <div class="number-container">
+    <div class="container">
+        <div id="display">0</div>
+        <div class="button-container">
+            <button id="AC">AC</button>
+            <button id="DEL">DEL</button>
+            <button id="%">%</button>
+            <button id="plus-minus">+/-</button>
             <button id="7">7</button>
             <button id="8">8</button>
             <button id="9">9</button>
+            <button id="/">/</button>
             <button id="4">4</button>
             <button id="5">5</button>
             <button id="6">6</button>
+            <button id="*">*</button>
             <button id="1">1</button>
             <button id="2">2</button>
             <button id="3">3</button>
+            <button id="subtract">-</button>
             <button id="0">0</button>
             <button id=".">.</button>
             <button id="=">=</button>
-        </div>
-        <div class="operator-container">
-            <button id="/">/</button>
-            <button id="*">*</button>
-            <button id="-">-</button>
             <button id="+">+</button>
         </div>
     </div>
+    <script src="script.js"></script> <!-- Load JS at the end -->
 </body>
-</head>
+</html>
