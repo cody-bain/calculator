@@ -1,0 +1,16 @@
+#calculator {
+    max-width: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+.number-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.number-container button {
+    display: flex;
+    aspect-ratio: 1;
+    flex: 1 0 30%;
+}
